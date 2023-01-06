@@ -1,7 +1,9 @@
 # About the project
 This is a take-home test task. The goal was to render the file structure based on JSON data, show modal upon simulating opening a file (so on click), and to give user an option to go back to the previous folder. So, a simple file explorer.
 
-#Screenshots
+# Screenshots
+![File tree](/Screenshot.png "File tree")
+![Modal popup](/Screenshot2.png "Pop up")
 
 # See the project
 [See live version on StackBlitz ⚡️](https://stackblitz.com/edit/file-explorer-react)
