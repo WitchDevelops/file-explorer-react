@@ -19,17 +19,23 @@
   border-radius: 0.5rem;
   background-color: var(--secondary);
   color: var(--grey-100);
-  -webkit-transition: color 0.2s linear;
-  -moz-transition: color 0.2s linear;
-  -ms-transition: color 0.2s linear;
-  -o-transition: color 0.2s linear;
-  transition: color 0.2s linear;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
 }
 
 .click:focus,
 .click:hover,
 .click:active {
   background-color: var(--primary);
+}
+
+.click:active {
+  -webkit-box-shadow: 8px 8px 23px -20px rgba(3, 10, 39, 1);
+  -moz-box-shadow: 8px 8px 23px -20px rgba(3, 10, 39, 1);
+  box-shadow: 8px 8px 23px -20px rgba(3, 10, 39, 1);
   -webkit-transform: translate(0px, 2px);
   -moz-transform: translate(0px, 2px);
   -ms-transform: translate(0px, 2px);
