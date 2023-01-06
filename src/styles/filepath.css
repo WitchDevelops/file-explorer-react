@@ -1,0 +1,12 @@
+.breadcrumbs {
+  border-bottom: 1px solid var(--secondary);
+  margin-bottom: 1.5rem;
+  font-size: 0.8rem;
+  text-align: left;
+  color: var(--secondary);
+}
+
+.breadcrumbs p {
+  text-align: left;
+  margin-bottom: 1.5rem;
+}

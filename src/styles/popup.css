@@ -17,7 +17,7 @@
   padding: 0.5rem;
   margin-bottom: 0.5rem;
   border-radius: 0.5rem;
-  background-color: var(--primary);
+  background-color: var(--secondary);
   color: var(--grey-100);
   -webkit-transition: color 0.2s linear;
   -moz-transition: color 0.2s linear;
@@ -29,7 +29,7 @@
 .click:focus,
 .click:hover,
 .click:active {
-  background-color: var(--secondary);
+  background-color: var(--primary);
   -webkit-transform: translate(0px, 2px);
   -moz-transform: translate(0px, 2px);
   -ms-transform: translate(0px, 2px);
@@ -82,10 +82,19 @@ h1 {
   margin-right: 0.5rem;
 }
 
-p:nth-child(1) {
+.popup-text p:nth-child(1) {
   font-weight: bold;
+  font-size: 1.6rem;
+  color: var(--black);
 }
 
-p {
-  margin: 1.5rem 0;
+.popup-text p {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: var(--grey-300);
+}
+
+.popup-text p:nth-child(3) {
+  margin-top: 0;
+  color: var(--secondary);
 }

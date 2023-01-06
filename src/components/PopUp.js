@@ -21,11 +21,10 @@ export default function PopUp() {
               <div className="popup-header">
                 <h1 class="close" onClick={closePopup}><CloseSquareFilled /></h1>
               </div>
-              <div>
+              <div className="popup-text">
                 <p>File is open</p>
-                <p>
-                  I didn't figure it out how to attach the popup to a file :({' '}
-                </p>
+                <p>I didn't figure it out how to attach the onClick to "file" </p>
+                <p>but I'm good with custom CSS</p>
               </div>
             </div>
           </div>
