@@ -1,0 +1,34 @@
+.folder,
+.file {
+  width: 400px;
+  max-width: 100%;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.folder:hover,
+.folder:focus,
+.folder:active,
+.file:hover,
+.file:focus,
+.file:active {
+  cursor: pointer;
+  background-color: var(--grey-100);
+  border-radius: 0.5rem;
+  border: 1px solid var(--mid);
+  -webkit-box-shadow: 8px 8px 23px -12px rgba(208, 209, 213, 1);
+  -moz-box-shadow: 8px 8px 23px -12px rgba(208, 209, 213, 1);
+  box-shadow: 8px 8px 23px -12px rgba(208, 209, 213, 1);
+}
+
+.icon {
+  margin-right: 0.5rem;
+}

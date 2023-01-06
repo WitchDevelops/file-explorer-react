@@ -1,0 +1,20 @@
+.breadcrumbs {
+  list-style: none;
+  display: inline;
+  width: auto;
+  border-left: 1px solid #efefef;
+  margin-left: 25px;
+  padding-left: 25px;
+  margin-bottom: 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  height: 100%;
+}
+.breadcrumbs li.separator {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 12px;
+}
+.breadcrumbs li {
+  display: inline-block;
+}
