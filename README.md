@@ -21,3 +21,6 @@ Project was build with React using useState hook, custom icons from ant design, 
 
 # What I learned
 How to render nested data, how to use custom icons from ant design instead of uploaded files
+
+What makes it work is this code that renders each level:
+![Code snippet](/code-snippet.png)
